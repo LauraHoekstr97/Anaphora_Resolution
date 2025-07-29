@@ -11,22 +11,20 @@ The experiments utilise the RecipeRef data from the [RecipeRef dataset](#data).
 - Task: Identifying **anaphors** in the recipe(s).
 - The model identifies the **anaphors** from raw recipe.
 - Results file format:
-- Evaluation format:
+- Evaluation format: ``` [anaphor, sentence number of anaphor, antecedent, sentence number of antecedent, label] ```
 
 ### **Experiment 2: Relation Detection**
 - Task: Given an anaphor, predicting the **antecedent**.
 - The **anaphor is provided**, and the model predicts the **antecedent**.
 - Results file format:
-- Evaluation format:
+- Evaluation format: ``` [anaphor, sentence number of anaphor, antecedent, sentence number of antecedent, label] ```
 
 ### **Experiment 3: Full Anaphora Resolution** - not available (yet)
 - Task: Anaphora resolution — both **detecting anaphors** and **identifying their antecedents**.
 - This experiment involves both tasks: anaphor detection and relations detection.
 - The model identifies the **anaphors** and their **antecedents** from the recipe.
-- Results file format:
-- Evaluation format:
-- 
----
+- Data format:
+- Evaluation format: ``` [anaphor, sentence number of anaphor, antecedent, sentence number of antecedent, label] ```
 
 ## 💻 Running the Experiments
 
@@ -49,15 +47,24 @@ The experiments utilise the RecipeRef data from the [RecipeRef dataset](#data).
 ## 📂 Code Files
 
 - **Main files**:
-  - `Experiment1_3.py` — for Experiment 1 and 3
-  - `Experiment2.py` — for Experiment 2
+  - `Experiment 1 & 3 - Anaphor Detection & Anaphora Resolution.py` - for experiment 1 (and possibly experiment 3)
+  - `Experiment 2 - Relation Detection.py` — for Experiment 2
   - `Evaluation.py` — for result evaluation
 
 - **Supporting files**: All other code and files are utilities used by the three main files above.
+- Helper_functions.py
+- Post_processing_and_formatting.py
+- Example with multiple antecedents.txt
+- GPT Task description - Experiment 1&3.txt
+- GPT Task description - Experiment 2.txt
+
+**Folders**
+- Results: This folder... consist and updates...
+- Results:
 
 ---
 
-## 👩🏻‍🍳🥘🍳🥗 Data
+## 👩🏻‍🍳🍳 Data
 
 - The RecipeRef data is from **RecipeRef**.  
   📖 Reference: [Include citation here]
@@ -66,13 +73,9 @@ The experiments utilise the RecipeRef data from the [RecipeRef dataset](#data).
 
 ## 🧷 Data & Output Formats
 
-### **Preprocessed Data Format**
+### **Postprocessed Data Format**
 ```
 [anaphor, sentence number of anaphor, antecedent, sentence number of antecedent, label]
 ```
 
-### **GPT Output Format**
-- **Anaphor Detection (Experiment 1):** [model output format, if applicable]
-- **Relation Detection (Experiment 2):** [model output format, if applicable]
 
----
