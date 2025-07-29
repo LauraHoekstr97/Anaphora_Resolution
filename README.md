@@ -20,7 +20,7 @@ The *recipe* and the *prompt* are provided, and the model predicts the *anaphori
 
 ---  
 
-## 💻 Running the Experiments
+## 🚀 Running the Experiments
 
 1. **Choose the experiment to run**:  
    For *Experiment 1 & 3*, run the `Experiment 1 & 3 - Anaphor Detection & Anaphora Resolution.py` file.  
