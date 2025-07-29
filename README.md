@@ -14,7 +14,7 @@ The *recipe* and *prompt* are provided, and the model predicts the *anaphors*.
 Task: Given an anaphor, identify the antecedent(s) within the recipe.  
 The *recipe*, *anaphor* and *prompt* are provided, and the model predicts the *antecedent*.
 
-### **Experiment 3: Full Anaphora Resolution** - not available (yet)
+### **Experiment 3: Anaphora Resolution** - not available (yet)
 Task: Anaphora resolution — both *identifying anaphors* and *identifying their antecedents*.  
 The *recipe* and the *prompt* are provided, and the model predicts the *anaphoric relations*.
 
