@@ -71,9 +71,6 @@ The experiments utilise the RecipeRef data from the [RecipeRef dataset](#data).
 
 ---
 
-## 🧷 Data & Output Formats
-
-### **Postprocessed Data Format**
 ```
 [anaphor, sentence number of anaphor, antecedent, sentence number of antecedent, label]
 ```
