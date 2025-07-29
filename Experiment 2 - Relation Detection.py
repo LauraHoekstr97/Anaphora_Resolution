@@ -184,7 +184,7 @@ few_shot = build_examples_for_few_shot()
 # Loops through all recipes for which the model needs to do relation detection.
 # Uncomment below to run experiment/gpt model!
 for test_recipe in tqdm(test_recipes, desc="Processing Recipes"):
-    # Experiment 2 - GPT3.5
+    # Experiment 2 - GPT4.1
     '''experimentation_environment(test_recipe, few_shot,
                                 "Experiment 2 - GPT4.1", "gpt-4.1-2025-04-14")'''
     # Experiment 2 - GPT3.5
