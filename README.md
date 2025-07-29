@@ -61,8 +61,9 @@ Inside the evaluation file, *uncomment the lines* of the experiment(s) you want 
 ---
 
 ## 👩🏻‍🍳🍳 Data  
-The RecipeRef data is from ***RecipeRef***.    
-  📖 Reference: [Include citation here]
+The data used for these experiments consists of annotated recipe texts from the RecipeRef corpus:   
+- RecipeRef is from and described in : [What does it take to bake a cake?](https://aclanthology.org/2022.findings-acl.275/) by Fang et al. (2022)
+- RecipeRef can be found at: [RecipeRef GitHub repository](https://github.com/biaoyanf/RecipeRef/tree/main/data)
 ---
 
 
