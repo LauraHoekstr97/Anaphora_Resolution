@@ -48,28 +48,23 @@ Evaluation **format** after post-processing and formatting: ``` [anaphor, senten
   - `Evaluation.py` — for result evaluation.
 
 **Supporting files**: All other code and files are utilities used by the three main files above.
-- Helper_functions.py
-- Post_processing_and_formatting.py
+- Helper_functions.py - Contains small functions that are used frequently throughout the project.
+- Post_processing_and_formatting.py - Contains functions to standardise all outputs into a consistent format, to enable comparison.
   
-- Example with multiple antecedents.txt - An extra example used in the few-shot prompt of experiment 2.
-- GPT Task description - Experiment 1&3.txt
-- GPT Task description - Experiment 2.txt
+- Example with multiple antecedents.txt - Contains an extra example used in the few-shot prompt of experiment 2.
+- GPT Task description - Experiment 1&3.txt - The task description of experiment 1 (and 3).
+- GPT Task description - Experiment 2.txt - The task description of experiment 2.
 
 **Folders**
-- Results: This folder... consist and updates...
-- Results:
-
+- Results: Contains the experiment results (and gets automatically updated) when the experiment code is run. The subfolders correspond to the experiment and the GPT model used.
+- Data – Includes the training (used for few-shot) and test datasets used in the experiments. The data is sourced from RecipeRef (add citation).
 ---
 
 ## 👩🏻‍🍳🍳 Data
 
 - The RecipeRef data is from **RecipeRef**.  
   📖 Reference: [Include citation here]
-
 ---
 
-```
-[anaphor, sentence number of anaphor, antecedent, sentence number of antecedent, label]
-```
 
 
