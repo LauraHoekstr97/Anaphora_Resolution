@@ -1,1 +1,1 @@
-# Master-Thesis---2025
+# Anaphora Resolution (Master-Thesis - 2025)
