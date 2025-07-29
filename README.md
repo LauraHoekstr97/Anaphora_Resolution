@@ -23,7 +23,7 @@ The *recipe* and the *prompt* are provided, and the model predicts the *anaphori
 ## 🚀 Running the Experiments
 
 1. **Choose the experiment to run**:  
-   For *experiment 1 & 3*, run the `Experiment 1 & 3 - Anaphor Detection & Anaphora Resolution.py` file.  
+   For *experiments 1* and *3*, run the `Experiment 1 & 3 - Anaphor Detection & Anaphora Resolution.py` file.  
    For *experiment 2*, run the `Experiment 2 - Relation Detection.py` file.
 
 2. **Select the GPT model**:
