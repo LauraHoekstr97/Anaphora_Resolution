@@ -7,7 +7,7 @@ This repository contains code for **anaphora resolution** within recipes using G
 ## 🤖 Overview of the Experiments
 
 ### **Experiment 1: Anaphor Detection**
-Task: Identifying **anaphors** in recipe(s).
+Task: Identifying **anaphors** in recipe(s).  
 The **recipe** is provided, and the model predicts the **anaphors**.
 
 ### **Experiment 2: Relation Detection**
