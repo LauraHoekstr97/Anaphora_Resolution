@@ -57,7 +57,7 @@ Inside the evaluation file, *uncomment the lines* of the experiment(s) you want 
 
 **Folders**
 - `Results`: Contains the experiment results (and gets automatically updated) when the experiment code is run. The subfolders correspond to the experiment and the GPT model used.
-- `Data`: Includes the training (used for few-shot) and test datasets used in the experiments. The data is sourced from RecipeRef (add citation).
+- `Data`: Contains the training (used for few-shot) and test datasets used in the experiments. The data is sourced from RecipeRef (add citation).
 ---
 
 ## 👩🏻‍🍳🍳 Data
