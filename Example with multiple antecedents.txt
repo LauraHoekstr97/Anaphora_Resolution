@@ -1,0 +1,21 @@
+Recipe:
+1. working in batches, cook spinach in large pot of boiling salted water until just wilted and bright green, about 1 minute.
+2. drain.
+3. cool spinach in bowl of ice water.
+4. squeeze spinach to remove excess liquid.
+5. transfer spinach to large bowl.
+6. fluff with fork.
+7. place 4 layers of cheesecloth or 1 linen towel on work surface.
+8. spoon tofu into center of cheesecloth.
+9. bring corners of cheesecloth together over tofu.
+10. gently squeeze cheesecloth to remove excess liquid from tofu.
+11. transfer tofu to paper coffee filter or double layer of paper towels.
+12. allow filter to absorb liquid from tofu.
+13. repeat with 4 more coffee filters or double layers of paper towels to remove most of excess liquid from tofu.
+14. transfer drained tofu to medium bowl.
+15. stir in miso and next 5 ingredients.
+16. spoon tofu dressing over spinach and toss to coat.
+Analyze this anaphor which appears in the last sentence of the given recipe:
+['tofu dressing']
+Output in Python list format:
+[['next 5 ingredients', 15, 'Ingredient_with_state_change_associated'],['miso', 15, 'Ingredient_with_state_change_associated']]

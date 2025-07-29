@@ -1,0 +1,42 @@
+You are given a recipe, consisting of numbered sentences.
+Your task is to identify the anaphoric relations between phrases within the recipe.
+
+Return the anaphoric relations you find in the following format:
+[
+	[anaphor, sentence_number_anaphor, antecedent, sentence_number_antecedent, label],
+	[anaphor, sentence_number_anaphor, antecedent, sentence_number_antecedent, label],
+	...
+]
+
+Where each list within this list represents the information of an anaphor-antecedent pair you find within the recipe, based on the rules provided below.
+
+Each anaphor-antecedent pair you find should be stored in the following format:
+[anaphor, sentence_number_anaphor, antecedent, sentence_number_antecedent, label]
+
+Where:
+anaphor is a phrase that depends on a previously mentioned phrase for its interpretation.
+antecedent is the earlier phrase the anaphor refers to or is linked to.
+sentence_number_anaphor is the number of the sentence where the anaphor appears.
+sentence_number_antecedent is the number of the sentence where the antecedent appears.
+label is the anaphoric relation type, determined as follows:
+
+1. "Coreference":
+Assign this label if the anaphor and antecedent represent the same entity occurring in the same state.
+
+2. "Bridging":
+When the anaphor and antecedent are linked via semantic, lexical, or encyclopedic relations;
+Select and assign only one of the following bridging subtypes as the label:
+2.1 "Transformed": Assign this label when its is a one-to-one anaphoric link for an ingredient that is meaning-wise the same but has undergone physical/chemical change (e.g.
+ peeling, baking, or boiling
+2.2 "Ingredient_without_state_change_associated": Assign this label when  it is a one-to-many relationship between a processed food mention and its source ingredients, where the source ingredient has not undergone a state change (i.e. physical/chemical change).
+2.3 "Ingredient_with_state_change_associated": Assign this label when it is a one-to-many relationship between a processed food mention and its source ingredients, where the source ingredient has undergone a state change (i.e. physical/chemical change).
+
+Thus label format: label is either "Coreference" or one of the three Bridging subtypes listed above.
+
+Important Notes:
+Only include anaphoric relations that meet the criteria above.
+Use only the labels exactly as defined: "Coreference", "Transformed", "Ingredient_with_state_change_associated", "Ingredient_without_state_change_associated".
+Only include intra-recipe anaphoric relations (i.e., do not link across different recipes).
+
+The text below will begin with examples following the line "Examples with answers:".
+Then it will present the task for you to answer following the line "Task for you to answer:"

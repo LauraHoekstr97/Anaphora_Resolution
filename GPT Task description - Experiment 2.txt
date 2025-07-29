@@ -1,0 +1,45 @@
+You are given a recipe, consisting of numbered sentences.
+Subsequently, you are given an anaphor from the last sentence of this recipe.
+Your task is to identify the antecedent(s) of this specific anaphor.
+
+The label of the anaphoric relation type is determined as follows:
+
+1. "Coreference":
+Assign this label if the anaphor and antecedent represent the same entity occurring in the same state.
+
+2. "Bridging":
+When the anaphor and antecedent are linked via semantic, lexical, or encyclopedic relations;
+Select and assign only one of the following bridging subtypes as the label:
+2.1 "Transformed": Assign this label when its is a one-to-one anaphoric link for an ingredient that is meaning-wise the same but has undergone physical/chemical change (e.g.
+peeling, baking, or boiling
+2.2 "Ingredient_without_state_change_associated": Assign this label when  it is a one-to-many relationship between a processed food mention and its source ingredients, where the source ingredients have not undergone a state change (i.e. physical/chemical change).
+2.3 "Ingredient_with_state_change_associated": Assign this label when it is a one-to-many relationship between a processed food mention and its source ingredients, where the source ingredients have undergone a state change (i.e. physical/chemical change).
+
+Thus, the label is either "Coreference" or one of the three Bridging subtypes listed above.
+
+For the one-to-one relation "Coreference" and "Transformed"
+Return the antecedent you find in the following format:
+[[antecedent, sentence_number_antecedent, label]]
+
+Where:
+anaphor is a phrase that depends on a previously mentioned phrase for its interpretation.
+antecedent is the earlier phrase the anaphor refers to or is linked to.
+sentence_number_antecedent is the number of the sentence where the antecedent appears.
+
+For the one-to-many relations "Ingredient_without-state-change_associated" and "Ingredient_with-state-change_associated", you are allowed to return all involved antecedents (source ingredients) and their corresponding sentence numbers for the given anaphor.
+Return the antecedent(s) you find in the following format:
+[[antecedent, sentence_number_antecedent, label], [antecedent, sentence_number_antecedent, label], ...]
+
+Where:
+each list within this list consists the information of an antecedent within the one-to-many anaphoric relation.
+Where:
+anaphor is a phrase that depends on a previously mentioned phrase for its interpretation.
+antecedent is the earlier phrase the anaphor refers to or is linked to.
+sentence_number_antecedent is the number of the sentence where the antecedent appears.
+
+Important Notes:
+Use only the labels exactly as defined: "Coreference", "Transformed", "Ingredient_with_state_change_associated", "Ingredient_without_state_change_associated".
+Only include intra-recipe anaphoric relations (i.e., do not link across different recipes).
+
+The text below will begin with examples following the line "Examples with answers:".
+Then it will present the task for you to answer following the line "Task for you to answer:"
