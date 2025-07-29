@@ -1,6 +1,6 @@
 # Anaphora Resolution (Master-Thesis - 2025)
 
-This repository contains code for **anaphora resolution** within recipes using GPT models.
+This repository contains code for **anaphora resolution** experiments on recipes using GPT-based models.
 
 ---  
 
