@@ -5,7 +5,7 @@ The experiments utilise the RecipeRef data from the [RecipeRef dataset](#data).
 
 ---
 
-## Overview of the Experiments
+## 🤖 Overview of the Experiments
 
 ### **Experiment 1: Anaphor Detection**
 - Task: Identifying **anaphors** in the recipe(s).
@@ -28,7 +28,7 @@ The experiments utilise the RecipeRef data from the [RecipeRef dataset](#data).
 - 
 ---
 
-## Running the Experiments
+## 💻 Running the Experiments
 
 1. **Choose the experiment to run**:
    - For **Experiment 1 & 3**, run the `Experiment1_3.py` file.
@@ -46,7 +46,7 @@ The experiments utilise the RecipeRef data from the [RecipeRef dataset](#data).
 
 ---
 
-## 📂 Code Structure
+## 📂 Code Files
 
 - **Main files**:
   - `Experiment1_3.py` — for Experiment 1 and 3
@@ -57,7 +57,7 @@ The experiments utilise the RecipeRef data from the [RecipeRef dataset](#data).
 
 ---
 
-## 🧾 Data
+## 👩🏻‍🍳🥘🍳🥗 Data
 
 - The RecipeRef data is from **RecipeRef**.  
   📖 Reference: [Include citation here]
