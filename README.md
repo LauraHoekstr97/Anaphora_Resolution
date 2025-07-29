@@ -21,7 +21,7 @@ The **recipe** is provided, and the model predicts the **anaphoric relations**.
 
 ## 💻 Running the Experiments
 
-1. **Choose the experiment to run**:
+1. **Choose the experiment to run**:  
    For **Experiment 1 & 3**, run the `Experiment 1 & 3 - Anaphor Detection & Anaphora Resolution.py` file.  
    For **Experiment 2**, run the `Experiment 2 - Relation Detection.py` file.
 
