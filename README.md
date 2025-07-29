@@ -7,8 +7,8 @@ This repository contains code for **anaphora resolution** within recipes using G
 ## 🤖 Overview of the Experiments
 
 ### **Experiment 1: Anaphor Detection**
-Task: Identifying **anaphors** in recipe(s).  
-The **recipe** is provided, and the model predicts the **anaphors**.
+Task: Identifying anaphors in recipe(s).  
+The ***recipe*** and ***a prompt*** are provided, and the model predicts the ***anaphors***.
 
 ### **Experiment 2: Relation Detection**
 Task: Given an anaphor, predicting the **antecedent**.  
@@ -56,7 +56,7 @@ Evaluation **format** after post-processing and formatting: ``` [anaphor, senten
 
 **Folders**
 - Results: Contains the experiment results (and gets automatically updated) when the experiment code is run. The subfolders correspond to the experiment and the GPT model used.
-- Data – Includes the training (used for few-shot) and test datasets used in the experiments. The data is sourced from RecipeRef (add citation).
+- Data: Includes the training (used for few-shot) and test datasets used in the experiments. The data is sourced from RecipeRef (add citation).
 ---
 
 ## 👩🏻‍🍳🍳 Data
