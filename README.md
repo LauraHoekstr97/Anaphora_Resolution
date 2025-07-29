@@ -37,7 +37,7 @@ The *recipe* and the *prompt* are provided, and the model predicts the *anaphori
 To evaluate the experiment results, run the `Evaluation.py` file.  
 Inside the evaluation file, *uncomment the lines* of the experiment(s) you want to evaluate.  
 
-Evaluation *format* after post-processing and formatting: ``` [anaphor, sentence number of anaphor, antecedent, sentence number of antecedent, label] ```
+*Format* after post-processing and formatting: ``` [anaphor, sentence number of anaphor, antecedent, sentence number of antecedent, label] ```
 
 ---
 
