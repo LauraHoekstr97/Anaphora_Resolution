@@ -11,30 +11,30 @@ Task: Identifying **anaphors** in recipe(s).
 The **recipe** is provided, and the model predicts the **anaphors**.
 
 ### **Experiment 2: Relation Detection**
-Task: Given an anaphor, predicting the **antecedent**.
+Task: Given an anaphor, predicting the **antecedent**.  
 The **anaphor is provided**, and the model predicts the **antecedent**.
 
 ### **Experiment 3: Full Anaphora Resolution** - not available (yet)
-Task: Anaphora resolution — both **identifying anaphors** and **their antecedents**.
+Task: Anaphora resolution — both **identifying anaphors** and **their antecedents**.  
 The **recipe** is provided, and the model predicts the **anaphoric relations**.
 
 
 ## 💻 Running the Experiments
 
 1. **Choose the experiment to run**:
-   For **Experiment 1 & 3**, run the `Experiment 1 & 3 - Anaphor Detection & Anaphora Resolution.py` file.
+   For **Experiment 1 & 3**, run the `Experiment 1 & 3 - Anaphor Detection & Anaphora Resolution.py` file.  
    For **Experiment 2**, run the `Experiment 2 - Relation Detection.py` file.
 
 2. **Select the GPT model**:
-   Inside the corresponding experiment file, **uncomment the lines** related to the GPT model you want to use.
+   Inside the corresponding experiment file, **uncomment the lines** related to the GPT model you want to use.  
 
 **Note**: The results, the GPT outputs, are already available in the results folder, so it's not necessary to run the experiment code to access them.
 
 ---
 
 ## 📊 Evaluation
-To evaluate the experiment results, run the `Evaluation.py` file.
-Inside the evaluation file, **uncomment the lines** of the experiment(s) you want to evaluate.
+To evaluate the experiment results, run the `Evaluation.py` file.  
+Inside the evaluation file, **uncomment the lines** of the experiment(s) you want to evaluate.  
 
 Evaluation **format** after post-processing and formatting: ``` [anaphor, sentence number of anaphor, antecedent, sentence number of antecedent, label] ```
 
@@ -61,7 +61,7 @@ Evaluation **format** after post-processing and formatting: ``` [anaphor, senten
 
 ## 👩🏻‍🍳🍳 Data
 
-- The RecipeRef data is from **RecipeRef**.  
+- The RecipeRef data is from **RecipeRef**.    
   📖 Reference: [Include citation here]
 ---
 
