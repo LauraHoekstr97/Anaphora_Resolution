@@ -2,7 +2,7 @@
 
 This repository contains code for **anaphora resolution** within recipes using GPT models.
 
----
+---  
 
 ## 🤖 Overview of the Experiments
 
@@ -18,6 +18,7 @@ The *recipe*, *anaphor and *prompt* are provided, and the model predicts the *an
 Task: Anaphora resolution — both *identifying anaphors* and *identifying their antecedents*.  
 The *recipe* and the *prompt* are provided, and the model predicts the *anaphoric relations*.
 
+---  
 
 ## 💻 Running the Experiments
 
